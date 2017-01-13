@@ -22,10 +22,13 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+section {
   background-color: #e2e2e2;
 }
 
-h1, p{
+h1, p {
   margin: 0;
   padding: 0 0 1.3rem;
 }
@@ -41,6 +44,10 @@ a {
   background-color: #555;
   padding: .5rem .75rem;
   border-radius: 4px;
+}
+
+a:hover {
+  background: black;
 }
 
 .img-flex {
@@ -64,7 +71,7 @@ a {
     line-height: 1.4;
   }
 
-  h1, p{
+  h1, p {
     padding: 0 0 1.4rem;
   }
 
@@ -73,16 +80,13 @@ a {
   }
 
   div {
-    float: left;
-    width: 50%;
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
   }
 
   .text {
     padding: 1.3em;
-  }
-
-  img {
-    padding-top: 4rem;
   }
 
 }
@@ -94,12 +98,8 @@ a {
     line-height: 1.5;
   }
 
-  h1, p{
+  h1, p {
     padding: 0 0 1.5rem;
-  }
-
-  h1 {
-    padding-top: 2.2rem;
   }
 
   .text {
@@ -107,7 +107,7 @@ a {
   }
 
   img {
-    padding-top: 2rem;
+    padding: 2em 0;
   }
 
 }
@@ -123,19 +123,17 @@ a {
     text-align: center;
   }
 
-  section {
+  div {
     display: inline-block;
-    max-width: 75%;
+    max-width: 37%;
   }
 
-  h1, p{
+  h1, p {
     padding: 0 0 1.5rem;
   }
 
   .text {
     text-align: left;
-    padding-top: 4rem;
   }
-
 
 }
